@@ -6,9 +6,11 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+
 function App() {
   return (
-    <Router>
+    // Add basename with your repo name
+    <Router basename="/my-react-portfolio">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,4 +23,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
