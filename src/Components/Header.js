@@ -14,9 +14,27 @@ function Header() {
 
       <div className="flex justify-between items-center py-2 md:py-10">
         <h1 className="text-3xl font-bold text-pink-500">Sylviah</h1>
+        <div className="md:hidden flex items-center">
+          <button onClick={toggleClass}>
+            <svg
+              className="w-6 h-6 text-pink-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
 
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav className={` ${!isOpen ? "block": "hidden" } text-center md:flex justify-between`}>
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass} className={({ isActive }) =>
