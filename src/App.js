@@ -10,7 +10,7 @@ import Technologies from "./Pages/Technologies";
 function App() {
   return (
     // Add basename with your repo name
-    <Router basename="/my-react-portfolio">
+    <Router basename="/Victor-portfolio">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
