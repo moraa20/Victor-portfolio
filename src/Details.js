@@ -24,16 +24,16 @@ import projectImage4 from "./assets/projects/project4.jpg";
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Sylviah.M",
-  tagline: "I build stuff for the  web everyday",
+  name: "Victor.R",
+  tagline: "I am an Electrical and Electronics Engineer .I also build websites",
   img: profile,
-  about: `I’m a frontend engineer passionate about building modern web applications with React. I enjoy crafting smooth user experiences and writing clean, maintainable code that brings ideas to life on the web.`,
+  about: `I’m an electrical engineer passionate about  designing, developing, testing, and maintaining electrical systems and devices `,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/sylvia-machira-9aa0882b3/",
-  github: "https://github.com/moraa20/",
+  linkdein: "https://www.linkedin.com/",
+  github: "https://github.com/",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -41,26 +41,26 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Adanian Labs`,
-    Location: "Westlands",
+    Position: "Assistant Engineer",
+    Company: `KPLC`,
+    Location: "Thika",
     Type: "Full Time",
-    Duration: "2024",
+    Duration: "2022",
   },
   {
-    Position: "IT Support Engineer",
-    Company: `Kabete Polytechnic`,
-    Location: "Nairobi",
-    Type: "Internship",
+    Position: "Machine Operator",
+    Company: `Kenplastics`,
+    Location: "Machakos",
+    Type: "Fulltime",
     Duration: "2025",
   },
-  /*{
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },*/
+  {
+    Position: "Sales Assistant",
+    Company: `DC Global`,
+    Location: "Meru",
+    Type: "Fulltime",
+    Duration: "2026",
+  },
 ];
 
 // Enter your Education Details here
@@ -73,11 +73,11 @@ export const eduDetails = [
     Duration: "2021 - Present",
   },
   {
-    Position: "Bachelor in Computer Science",
-    Company: `Meru University`,
-    Location: "Meru",
+    Position: "Undergraduate in Electrical and Electronics Engineering",
+    Company: `University of Nairobi`,
+    Location: "Nairobi",
     Type: "Full Time",
-    Duration: "2021 - 2025",
+    Duration: "2019 - 2023",
   },
 ];
 
@@ -102,36 +102,36 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "PLAYING CARDS",
     image: projectImage1,
-    description: `I built a booking app with React where users can pick dates, make reservations, and see updates in real time.`,
+    description: `I built a web page that displays a deck of playing cards.`,
     techstack: "React,HTML,JavaScript,Tailwind CSS.",
-    previewLink: "https://escapevibes.vercel.app/",
-    githubLink: "https://github.com/moraa20/ESCAPEVIBES",
+    previewLink: "https://google.com",
+    githubLink: "https://google.com/",
   },
   {
-    title: "Project title 2",
+    title: "BOOK INVENTORY",
     image: projectImage2,
-    description: `I built a restaurant landing page with a responsive design, smooth navigation to showcase the menu, services, and special offers`,
+    description: `I built a book inventory app to organize and track books.”`,
     techstack: "HTML/CSS,JavaScript,Bootstrap",
-    previewLink: "https://moraa20.github.io/VILLA/",
-    githubLink: "https://github.com/moraa20/VILLA",
+    previewLink: "https://google.com",
+    githubLink: "https://google.com",
   },
   {
-    title: "Project title 3",
+    title: "PRODUCT LANDING PAGE",
     image: projectImage3,
-    description: `I built a movie app that lets users browse, search, and explore movies with details like ratings, genres, and summaries.`,
+    description: `I built a product landing page to showcase and promote a service.`,
     techstack: "HTML,JavaScript,Tailwind CSS",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://google.com",
   },
   {
-    title: "Project title 4",
+    title: "PERSONAL PORTFOLIO",
     image: projectImage4,
     description: `I built my personal portfolio to showcase my projects, skills, and experience as a frontend engineer.`,
     techstack: "React,JavaScript,HTML,Tailwind CSS.",
-    previewLink: "https://moraa20.github.io/my-react-portfolio/",
-    githubLink: "https://github.com",
+    previewLink: "https://google.com",
+    githubLink: "https://google.com",
   },
  /* {
     title: "Project title 5",
@@ -155,6 +155,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "moraasyl254@gmail.com",
-  phone: "+254792500665",
+  email: "vickiirobia@gmail.com",
+  phone: "+254718606483",
 };

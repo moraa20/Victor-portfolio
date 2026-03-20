@@ -6,6 +6,7 @@ module.exports = {
         primary: "Inter, sans-serif",
       },
       colors: {
+        "blue-content":"#000080",
         "light-content": "#A7A7A7",
         "dark-heading": "#1f2428",
         "dark-content": "#666666",

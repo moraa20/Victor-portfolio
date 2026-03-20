@@ -13,11 +13,11 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
 
       <div className="flex justify-between items-center py-2 md:py-10">
-        <h1 className="text-3xl font-bold text-pink-500">Sylviah</h1>
+        <h1 className="text-3xl font-bold text-blue-500">Robia</h1>
         <div className="md:hidden flex items-center">
           <button onClick={toggleClass}>
             <svg
-              className="w-6 h-6 text-pink-500"
+              className="w-6 h-6 text-blue-500"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -38,33 +38,34 @@ function Header() {
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass} className={({ isActive }) =>
-              `transition duration-300 hover:text-pink-500 ${isActive ? "text-pink-500 font-semibold" : ""}`
+              `transition duration-300 hover:text-blue-500 ${isActive ? "text-blue-500 font-semibold" : ""}`
             }>
               Home
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass} className={({ isActive }) => `transition duration-300 hover:text-pink-500${isActive ? "text-pink-500 font-semi-bold" : ""}`}>
+            <NavLink to="/about" onClick={toggleClass} className={({ isActive }) => `transition duration-300 hover:text-blue-500${isActive ? "text-blue-500 font-semi-bold" : ""}`}>
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/technologies" onClick={toggleClass} className={({ isActive }) =>
-              `transition duration-300 hover:text-pink-500 ${isActive ? "text-pink-500 font-semibold" : ""}`
+              `transition duration-300 hover:text-blue-500 ${isActive ? "text-blue-500 font-semibold" : ""}`
             }>
+              
               Tech
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/projects" onClick={toggleClass} className={({ isActive }) =>
-              `transition duration-300 hover:text-pink-500 ${isActive ? "text-pink-500 font-semibold" : ""}`
+              `transition duration-300 hover:text-blue-500 ${isActive ? "text-blue-500 font-semibold" : ""}`
             }>
               Projects
             </NavLink>
           </li>
           <li>
             <NavLink to="/contact" onClick={toggleClass} className={({ isActive }) =>
-              `transition duration-300 hover:text-pink-500 ${isActive ? "text-pink-500 font-semibold" : ""}`
+              `transition duration-300 hover:text-blue-500 ${isActive ? "text-blue-500 font-semibold" : ""}`
             }>
               Contact
             </NavLink>
@@ -88,7 +89,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading hover:fill-pink-500 transition duration-300"
+                className="dark:fill-light-heading fill-dark-heading hover:fill-blue-500 transition duration-300"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -102,7 +103,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading hover:fill-pink-500 transition duration-300"
+                className="dark:fill-light-heading fill-dark-heading hover:fill-blue-500 transition duration-300"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
